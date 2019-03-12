@@ -13,8 +13,7 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="40dp"
         android:layout_marginTop="30dp"
-        android:textSize="25sp"
-        android:textStyle="bold"
+        android:textSize="30sp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         tools:text="Name" />
@@ -26,8 +25,7 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="40dp"
         android:layout_marginTop="20dp"
-        android:textSize="25sp"
-        android:textStyle="bold"
+        android:textSize="30sp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/tvName"
         tools:text="Title" />
@@ -39,8 +37,7 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="40dp"
         android:layout_marginTop="20dp"
-        android:textSize="25sp"
-        android:textStyle="bold"
+        android:textSize="30sp"
         app:layout_constraintStart_toStartOf="parent"
         tools:text="Breach Date" />
 
@@ -50,9 +47,7 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="40dp"
         android:layout_marginTop="20dp"
-
-        android:textSize="25sp"
-        android:textStyle="bold"
+        android:textSize="30sp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/tvBreachDate"
         tools:text="Description" />

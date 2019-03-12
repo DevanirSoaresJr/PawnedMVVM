@@ -22,7 +22,7 @@ public class Repository extends Observable implements Observer, DataSource {
 
     @Override
     public void setObserver(Observer observer) {
-
+        addObserver(observer);
     }
 
     @Override

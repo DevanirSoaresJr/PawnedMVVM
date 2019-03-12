@@ -40,8 +40,8 @@ public class MainActivity extends AppCompatActivity {
         final HomeViewModel homeViewModel = new HomeViewModel();
         homeViewModel.getResponseLiveData().observe(this, new Observer<List<Repo>>() {
             @Override
-            public void onChanged(@Nullable List<Repo> haveIBeenPawnedRepos) {
-                haveIBeenPawnedAdapter.setData(haveIBeenPawnedRepos);
+            public void onChanged(@Nullable List<Repo> repoList) {
+                haveIBeenPawnedAdapter.setData(repoList);
             }
         });
 
